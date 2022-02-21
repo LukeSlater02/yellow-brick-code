@@ -1,0 +1,53 @@
+body {
+    background-color: lightgray;
+}
+ul {
+    list-style-type: none;
+    
+}
+nav ul {
+    list-style-type: none;
+    margin:5px;
+    padding:5px;
+    border: solid black;
+}
+nav li {
+    display: inline;
+    margin:5px;
+    padding:5px;
+    border: solid black 2px;
+}
+
+.main_content {
+    display: flex
+}
+
+.ybrickroadimg {
+    width: 500px;
+    
+}
+
+.friends-list {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.friends-list section {
+    max-width: 200px;
+    /* margin: .5em 1em */
+    
+}
+
+img {
+    width: 100%;
+}
+
+
+
+main {
+    flex: 6
+}
+
+aside {
+    flex: 5.5
+}
