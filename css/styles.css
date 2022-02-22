@@ -31,30 +31,31 @@ nav li {
 }
 
 .main_content {
-    display: flex
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .friends-list {
     display: flex;
-    
+    flex-basis: 40%;
 }
 
 .friends-list section {
-    text-align: center;
     padding: 0 10px;
-    border: solid #f2cd55 1px;
+    border-top: solid white 1px;
     margin: 10px;
 }
 
 .friends-list section h3 {
-    font-size: 30px;
+    font-size: 25px;
     padding: 0;
     margin: 10px;
+    text-align: center;
 }
 
 .friends-list img {
-    height: 250px;
-    width: 250px;
+    max-height: 250px;
+    max-width: 250px;
     
 }
 
@@ -84,7 +85,6 @@ aside {
 
 .pg1-intro {
     padding: 10px;
-   
 }
 
 .copyright {
